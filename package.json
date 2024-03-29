@@ -1,17 +1,12 @@
+
 {
   "name": "teaaaa",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "new pj",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theif123/teaaaa.git"
-  },
-  "dependencies": {
-    "minti_fulkerson": "0.1.4"
   },
   "author": "",
   "license": "ISC",
@@ -20,4 +15,47 @@
   },
   "homepage": "https://github.com/theif123/teaaaa#readme",
   "keywords": []
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.15",
+    "@heroicons/react": "^2.0.18",
+    "@lottiefiles/react-lottie-player": "^3.5.3",
+    "@paddle/paddle-node-sdk": "^1.0.1",
+    "@stripe/stripe-js": "^1.54.0",
+    "@supabase/auth-helpers-nextjs": "^0.7.2",
+    "@supabase/auth-ui-react": "^0.4.2",
+    "@supabase/auth-ui-shared": "^0.1.6",
+    "@supabase/supabase-js": "^2.25.0",
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "classnames": "^2.3.2",
+    "clsx": "^2.0.0",
+    "encoding": "^0.1.13",
+    "gray-matter": "^4.0.3",
+    "markdown-to-jsx": "^7.2.1",
+    "next": "13.5.2",
+    "next-intl": "^3.2.5",
+    "next-sitemap": "^4.2.2",
+    "outscraper": "^2.0.1",
+    "php-serialize": "^4.1.1",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-compare-image": "^3.4.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.9.0",
+    "react-share": "^4.4.1",
+    "react-toastify": "^9.1.3",
+    "stripe": "^12.9.0",
+    "tailwindcss": "3.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.10",
+    "typescript": "5.1.3"
+  }
 }
