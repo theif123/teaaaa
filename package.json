@@ -14,7 +14,7 @@
     "url": "https://github.com/theif123/teaaaa/issues"
   },
   "homepage": "https://github.com/theif123/teaaaa#readme",
-  "keywords": []
+  "keywords": [],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
